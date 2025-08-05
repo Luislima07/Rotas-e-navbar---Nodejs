@@ -3,27 +3,27 @@ const router = express.Router();
 
 //Rotas
 
-//Form Add categoria
+//Form Add alunos
 router.get("/add", async (req, res) => {
     res.render("base", {
         title: "Adicionar Alunos",
-        view: "categorias/add",
+        view: "alunos/add",
     });
 });
 
-//Form Editar categoria
+//Form Editar alunos
 router.get("/edit", async (req, res) => {
     res.render("base", {
         title: "Editar Alunos",
-        view: "categorias/edit",
+        view: "alunos/edit",
     });
 });
 
-//Listar categoria
+//Listar alunos
 router.get("/", async (req, res) => {
     res.render("base", {
         title: "Listar Alunos",
-        view: "categorias/show",
+        view: "alunos/show",
     });
 });
 
