@@ -1,0 +1,8 @@
+footer {
+    color: white;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
